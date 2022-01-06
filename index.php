@@ -6,6 +6,7 @@ class Student
     public $name;
     const HUMAN = 'HUMAN';
     public static $email = 'ab@gmail.com';
+
     public function __construct($name)
     {
         $this->name = $name;
@@ -13,7 +14,7 @@ class Student
 
     public function output()
     {
-        return 'I am : ' .self::HUMAN .  ' My Name  is: ' . $this->name . ' : Email:  ' . self::$email;
+        return 'I am : ' . self::HUMAN . ' My Name  is: ' . $this->name . ' : Email:  ' . self::$email;
     }
 
 }
@@ -37,9 +38,9 @@ $mark->roll = '20';
 echo $mark->output();
 echo "<br>";
 
-if($mark instanceof $std){
+if ($mark instanceof $std) {
     echo 'yes';
-}else{
-    echo  'No';
+} else {
+    echo 'No';
 }
 
