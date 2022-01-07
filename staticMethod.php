@@ -4,6 +4,10 @@
 
 class Student
 {
+Inheritance 1:30  hour
+Access Modifier: 1 hour
+    Static Method : 1 hour
+Interface 1:30 hour
 
     const HUMAN = 'HUMAN';
     public static $email = 'ab@gmail.com';
