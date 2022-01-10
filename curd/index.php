@@ -34,6 +34,10 @@ $userData = $user->AllUsers();
          <tr>
              <td><?php echo $data['name'] ?></td>
              <td><?php echo $data['email'] ?></td>
+             <td>
+                 <a href="edit.php?id=<?php echo $data['id'] ?>">Edit</a>
+                 <a href="delete.php?id=<?php echo $data['id'] ?>">Delete</a>
+             </td>
 
          </tr>
 
