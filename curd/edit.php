@@ -6,9 +6,7 @@ $user = new User();
 $data = $user->UpdateUser($id);
 $data = mysqli_fetch_assoc($data);
 
-
 if (isset($_POST['name'])) {
-
     $user->UpdateUserInfo($_POST);
 }
 
